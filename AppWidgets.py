@@ -7,6 +7,10 @@ window = tk.Tk()
 window.title('Window and widgets') #titulo
 window.geometry('800x500') #largura do app padrao
 
+#Create the widgets
+text = tk.Text(master = window)#textbox
+text.pack() #conteudo em variavel
+
 
 # run the app
 window.mainloop()
