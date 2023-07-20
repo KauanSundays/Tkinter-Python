@@ -16,6 +16,14 @@ label.pack()
 text = tk.Text(master = window)#textbox
 text.pack() #conteudo em variavel
 
+#ttk entry
+entry = ttk.Entry(master = window)
+entry.pack()
+
+#ttk button
+button = ttk.Button(master = window, text= 'A button', command= button_func)
+button.pack()
+
 
 # run the app
 window.mainloop()
